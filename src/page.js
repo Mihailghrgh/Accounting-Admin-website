@@ -30,7 +30,7 @@ export default function AccountingAdminTemplate() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Sticky header */}
-      <header className="bg-[#800020] shadow sticky top-0 z-50 transition-all duration-300">
+      <header className="sticky-header">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="logo text-white">AccountAdmin Pro</div>
           <ul className="nav-links hidden md:flex space-x-4">

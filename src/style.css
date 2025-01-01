@@ -214,3 +214,12 @@ footer {
 .additional-section .section-right ul li a:hover {
   text-decoration: underline;
 }
+
+.sticky-header {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: #800020; /* Set the background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to make it stand out */
+}
