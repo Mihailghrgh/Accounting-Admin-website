@@ -42,7 +42,7 @@ export default function Service() {
               "Analiză financiară",
               "Casierie",
               "Business Administration",
-              "Risk Management",
+              "Gestionarea riscurilor",
             ].map((service, index) => (
               <div key={index} className="service-item">
                 <h3 className="text-xl font-semibold text-[#800020] mb-4">

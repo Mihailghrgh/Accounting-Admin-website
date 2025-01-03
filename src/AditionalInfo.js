@@ -16,7 +16,7 @@ export default function AditionalInfo() {
           </p>
         </div>
         <div className="section-right">
-          <ul>
+          {/* <ul>
             <li>
               <a href="#" onClick={(e) => handleLinkClick(e, "Service 1")}>
                 Service 1
@@ -32,7 +32,7 @@ export default function AditionalInfo() {
                 Service 3
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>
